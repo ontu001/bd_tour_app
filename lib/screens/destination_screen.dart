@@ -61,7 +61,7 @@ class DestinationScreenState extends State<DestinationScreen> {
                         icon: Icon(
                           Icons.arrow_back,
                           size: 30.0,
-                          color: Colors.black,
+                          color: Colors.white,
                         )),
                     Row(
                       children: [
@@ -70,14 +70,14 @@ class DestinationScreenState extends State<DestinationScreen> {
                             icon: Icon(
                               Icons.search,
                               size: 30.0,
-                              color: Colors.black,
+                              color: Colors.white,
                             )),
                         IconButton(
                             onPressed: () {},
                             icon: Icon(
                               FontAwesomeIcons.sortAmountAsc,
                               size: 20.0,
-                              color: Colors.black,
+                              color: Colors.white,
                             )),
                       ],
                     )

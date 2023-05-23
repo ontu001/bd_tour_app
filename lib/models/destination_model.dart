@@ -75,16 +75,16 @@ List<Destination> destinations = [
   ),
   Destination(
     imageUrl: 'assets/images/saopaulo.jpg',
-    city: 'Sao Paulo',
-    country: 'Brazil',
-    description: 'Visit Sao Paulo for an amazing and unforgettable adventure.',
+    city: 'Sylhet',
+    country: 'Sylhet District',
+    description: 'Sylhet is known for its cane products and produces tea.',
     activities: activities,
   ),
   Destination(
     imageUrl: 'assets/images/newyork.jpg',
-    city: 'New York City',
-    country: 'United States',
-    description: 'Visit New York for an amazing and unforgettable adventure.',
+    city: 'Sundarbans',
+    country: 'Khulna Divison',
+    description: 'Longest Mangrove forest of the world and the home of Royal Bengal Tiger.',
     activities: activities,
   ),
 ];
