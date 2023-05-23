@@ -97,14 +97,17 @@ class DestinationCarosol extends StatelessWidget {
                           ),
                           child: Stack(
                             children: [
-                              ClipRRect(
-                                child: Image(
-                                  height: 180.0,
-                                  width: 180.0,
-                                  image: AssetImage(destination.imageUrl),
-                                  fit: BoxFit.cover,
+                              Hero(
+                                tag: destination.imageUrl,
+                                child: ClipRRect(
+                                  child: Image(
+                                    height: 180.0,
+                                    width: 180.0,
+                                    image: AssetImage(destination.imageUrl),
+                                    fit: BoxFit.cover,
+                                  ),
+                                  borderRadius: BorderRadius.circular(20.0),
                                 ),
-                                borderRadius: BorderRadius.circular(20.0),
                               ),
                               Positioned(
                                 left: 10.0,
