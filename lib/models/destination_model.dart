@@ -1,7 +1,5 @@
 import 'package:bd_tour_app/models/activity_model.dart';
 
-import 'activity_model.dart';
-
 class Destination {
   String imageUrl;
   String city;
@@ -43,28 +41,36 @@ List<Activity> activities = [
     rating: 3,
     price: 125,
   ),
+  Activity(
+    imageUrl: 'assets/images/murano.jpg',
+    name: 'Murano and Burano Tour',
+    type: 'Sightseeing Tour',
+    startTimes: ['12:30 pm', '2:00 pm'],
+    rating: 3,
+    price: 125,
+  ),
 ];
 
 List<Destination> destinations = [
   Destination(
     imageUrl: 'assets/images/venice.jpg',
-    city: 'Venice',
-    country: 'Italy',
-    description: 'Visit Venice for an amazing and unforgettable adventure.',
+    city: 'St. Martins',
+    country: 'Bay of Bengal',
+    description: '"Narkel Zinzira" the only coral reef island in Bangladesh.',
     activities: activities,
   ),
   Destination(
     imageUrl: 'assets/images/paris.jpg',
-    city: 'Paris',
-    country: 'France',
-    description: 'Visit Paris for an amazing and unforgettable adventure.',
+    city: 'Sajek Valley',
+    country: 'Rangamati District',
+    description: 'One of the most popular tourist spots in Bangladesh situated among the hills',
     activities: activities,
   ),
   Destination(
     imageUrl: 'assets/images/newdelhi.jpg',
-    city: 'New Delhi',
-    country: 'India',
-    description: 'Visit New Delhi for an amazing and unforgettable adventure.',
+    city: 'Nilachal',
+    country: 'Bandarban',
+    description: 'From here visitor can see the total glance of Bandarban town and a vast landscape.',
     activities: activities,
   ),
   Destination(
