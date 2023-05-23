@@ -12,8 +12,12 @@ class MyApp extends StatelessWidget {
       title: "Bangladeshi Travel Application",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color(0x3EBACE),
+        primaryColor: Color(0xFF3EBACE),
         scaffoldBackgroundColor: Color(0xFFF3F5F7),
+        colorScheme: ColorScheme.light(
+          secondary: Color(0xFFD8ECF1), // Replace with your accent color
+        ),
+
       ),
       home: HomeScreen(),
     );
