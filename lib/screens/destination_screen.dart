@@ -131,7 +131,7 @@ class DestinationScreenState extends State<DestinationScreen> {
           ),
           Expanded(
             child: ListView.builder(
-              padding: EdgeInsets.only(top: 10.0),
+                padding: EdgeInsets.only(top: 10.0),
                 itemCount: widget.destination.activities.length,
                 itemBuilder: (BuildContext context, int index) {
                   Activity activity = widget.destination.activities[index];
@@ -190,6 +190,7 @@ class DestinationScreenState extends State<DestinationScreen> {
                               Row(
                                 children: [
                                   Container(
+                                    padding: EdgeInsets.all(5.2),
                                     width: 70.0,
                                     decoration: BoxDecoration(
                                         color: Theme.of(context)
@@ -202,6 +203,7 @@ class DestinationScreenState extends State<DestinationScreen> {
                                   ),
                                   VerticalDivider(),
                                   Container(
+                                    padding: EdgeInsets.all(5.2),
                                     width: 70.0,
                                     decoration: BoxDecoration(
                                         color: Theme.of(context)
